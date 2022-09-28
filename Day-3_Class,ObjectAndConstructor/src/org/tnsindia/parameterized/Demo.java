@@ -6,7 +6,6 @@ class Bus
 {
 	//variable
 	public int speed;
-	
 	//Parameterized constructor
 	Bus(int s1)
 	{
@@ -22,14 +21,13 @@ class Bus
 }
 public class Demo {
 	public static void main(String[] args) {
-
-	Scanner s=new Scanner(System.in);
-	System.out.print("Enter the value of speed: ");
-	int s1=s.nextInt();
-	//object creation
-	Bus b=new Bus();
-	Bus b1=new Bus(s1);
-	
-	s.close();
-}
+		
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the value of speed: ");
+		int s1=s.nextInt();
+		//object creation
+		Bus b=new Bus();
+		Bus b1=new Bus(s1);
+		s.close();
+	}
 }
