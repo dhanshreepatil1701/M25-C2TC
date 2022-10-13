@@ -1,6 +1,7 @@
 package org.tnsindia.arraydemo;
 
 import java.util.Scanner;
+
 public class ArrayDemoInput {
 
 	public static void main(String[] args) {
