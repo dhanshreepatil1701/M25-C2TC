@@ -26,10 +26,9 @@ public class ArithmeticExceptionHandling {
 			System.out.println("Finally block is always executed");
 			
 		}
-		//outside the try and catch block statement also always exceuted.
+		//outside the try and catch block statement also always executed.
 		System.out.println("Exception handling");
 		s.close();
-
 
 	}
 

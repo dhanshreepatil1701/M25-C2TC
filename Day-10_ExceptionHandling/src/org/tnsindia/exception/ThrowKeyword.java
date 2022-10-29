@@ -2,29 +2,26 @@ package org.tnsindia.exception;
 
 public class ThrowKeyword {
 
-	public static void display(int age,int weight)
-	{
-		if(age>18 && weight>45)
-		{
+	public static void display(int age,int weight) {
+		if(age>18 && weight>45) {
 			System.out.println("Eligible to donate the blood");
 			
 		}
-		else
-		{
+		
+		else {
 			//to throw an exception explicitly
 			throw new ArithmeticException("Not Eligible");
 		}
 	}
 	public static void main(String[] args) {
-		try
-		{
+		
+		try {
 			display(20,35);
 		}
-		catch(ArithmeticException e)
-		{
+		
+		catch(ArithmeticException e) {
 			System.out.println(e);
 		}
 
 	}
-
 }

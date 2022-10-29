@@ -5,10 +5,8 @@ import java.util.Scanner;
 
 public class ThrowsKeyword {
 	//throws is used to declare the exception
-	public static void print(int x)throws IOException
-	{
-		if(x==1)
-		{
+	public static void print(int x)throws IOException {
+		if(x==1) {
 			System.out.println("Input is equal");
 		}
 		else
@@ -17,18 +15,15 @@ public class ThrowsKeyword {
 
 	public static void main(String[] args) {
 		
-		try
-		{
+		try {
 			
 			Scanner s=new Scanner(System.in);
 			System.out.println("Enter the input for x: ");
 			int x=s.nextInt();
 			print(x);
 			s.close();
-			
 		}
-		catch(Exception e)
-		{
+		catch(Exception e) {
 			System.out.println(e);
 		}
 	}

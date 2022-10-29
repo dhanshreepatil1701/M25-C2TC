@@ -6,24 +6,23 @@ public class MultipleCatchBlock {
 		try {
 				//by default it takes 0 as we have not pass any argument
 				int a=args.length;
-				System.out.println("the length of a is: "+a);
+				System.out.println("The length of a is: "+a);
 				int b=12/a;
 				System.out.println(b);
 				int arr[]= {11,33,55};
 				System.out.println(arr[3]);
 		}
-		catch(ArithmeticException | ArrayIndexOutOfBoundsException e)
-		{
-			System.out.println(e);
+		
+		catch(ArithmeticException | ArrayIndexOutOfBoundsException e){
+			System.out.println("Exception :"+e);
 			
 		}
-		catch(Exception e)
-		{
+		
+		catch(Exception e){
 			System.out.println(e);
 		}
 		
-		finally
-		{
+		finally{
 			System.out.println("Finally block");
 
 		}

@@ -10,7 +10,7 @@ public class FinallyBlockNotExecuted {
 			int x=12;
 			int y=5;
 			System.out.println("Inside try block- "+x/y);
-			//1.no any further statement will exceute
+			//1.no any further statement will executed
 			System.exit(0);
 		}
 	
@@ -24,8 +24,8 @@ public class FinallyBlockNotExecuted {
 			System.out.println("finally block");
 
 		}
-		/*2.when finally block contains exceptional code ,it won't be executed.
-		finally
+		//2.when finally block contains exceptional code ,it won't be executed.
+		/*finally
 		{
 			//System.out.println("Finally block");
 			int res=34/0;
