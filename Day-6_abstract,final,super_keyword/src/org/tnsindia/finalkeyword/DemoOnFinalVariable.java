@@ -1,7 +1,6 @@
 package org.tnsindia.finalkeyword;
 
 //Demo on final keyword with variable
-
 class FinalVariable
 {
 	//if any variable is declared as final , we can't change the value of that variable
@@ -22,7 +21,6 @@ public class DemoOnFinalVariable {
 		FinalVariable f1=new FinalVariable();
 		System.out.println(f1.salary);
 		//f1.display();
-
 	}
 
 }
