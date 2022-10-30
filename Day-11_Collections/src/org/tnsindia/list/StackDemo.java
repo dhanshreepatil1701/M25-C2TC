@@ -1,8 +1,7 @@
 package org.tnsindia.list;
 
-import java.util.Stack;
-
 //Demo on Stack-LIFO
+import java.util.Stack;
 public class StackDemo {
 
 	public static void main(String[] args) {
@@ -16,9 +15,12 @@ public class StackDemo {
 		System.out.println(s);
 		
 		//pop-Deletion
+		//it delete last element(LIFO)
 		s.pop();
 		
-		//s.remove(0);//it delete 0th index element
+		//it delete 0th index element
+		//s.remove(0);
+		
 		System.out.println(s);
 
 	}

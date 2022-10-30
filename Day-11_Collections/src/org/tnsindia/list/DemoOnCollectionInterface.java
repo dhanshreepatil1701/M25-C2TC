@@ -12,11 +12,18 @@ public class DemoOnCollectionInterface {
 		//Collection<Integer> obj =new ArrayList<>();
 		Collection obj=new ArrayList<>();
 		//adding the value
-		obj.add("12fgh");
-		obj.add(45);
+		obj.add("Dhanshree");
+		obj.add('x');
 		obj.add(565.4f);
 		System.out.println("The elements in collection is:" +obj);
-
+		
+		//Different ways to print the elements in collection 
+		//for each loop
+		//for loop
+		//iterator
+		//list iterator
+		
+		
 	}
 
 }

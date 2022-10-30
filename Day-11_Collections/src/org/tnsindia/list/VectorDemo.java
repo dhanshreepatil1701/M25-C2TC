@@ -1,5 +1,6 @@
 package org.tnsindia.list;
 
+//example on vector in Collections
 import java.util.List;
 import java.util.Vector;
 
