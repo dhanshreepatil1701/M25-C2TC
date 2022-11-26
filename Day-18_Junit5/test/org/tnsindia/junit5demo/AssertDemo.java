@@ -10,6 +10,7 @@ class AssertDemo {
 	public void assertdemo() {
 		//fails when expected does not equal actual
 		assertEquals(7,8);
+		
 	}
 	@Test
 	public void assertdemo1() {
