@@ -20,5 +20,4 @@ class AssumptionDemo {
 		Assumptions.assumeFalse("Dhan".equals(System.getProperty("Dhanshree")));
 	}
 	
-
 }

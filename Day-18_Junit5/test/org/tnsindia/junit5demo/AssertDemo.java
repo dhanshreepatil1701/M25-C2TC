@@ -9,7 +9,7 @@ class AssertDemo {
 	@Test
 	public void assertdemo() {
 		//fails when expected does not equal actual
-		assertEquals(7,7);
+		assertEquals(7,8);
 	}
 	@Test
 	public void assertdemo1() {
