@@ -9,6 +9,7 @@ class LoginCredentials extends Exception {
 	public LoginCredentials(String str) {
 		super();
 		this.str = str;
+		
 	}
 	@Override
 	public String toString() {
